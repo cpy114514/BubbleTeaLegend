@@ -1,0 +1,899 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\enemy\\bossspawncircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\bossspawncircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\enemy\\bossspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\bossspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|d:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\enemy\\vendingmachineboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vendingmachineboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\enemy\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\enemy\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerControls\\PlayerSkinController1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerControls\\PlayerSkinController1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EXPCup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EXPCup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\expcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\expcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\shaders\\pixelateeffect.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\shaders\\pixelateeffect.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\orangedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\orangedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\orangeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\orangeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\pearlattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\pearlattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\drinkrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drinkrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\CoconutHoming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackTopping\\CoconutHoming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\coconutattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\coconutattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\finishdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackTopping\\PuddingCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\coconutprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\coconutprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\lemonboomerang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\lemonboomerang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\drinkmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drinkmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\liquidspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\liquidspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingRangedAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackTopping\\PuddingRangedAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\attackpearl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\attackpearl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\attacktopping\\puddingprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attacktopping\\puddingprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingMeleeAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackTopping\\PuddingMeleeAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\remake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\remake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\ingrediantparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ingrediantparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\liquidtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\liquidtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\ingrediantspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ingrediantspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\liquidparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\liquidparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\stationmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stationmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\assets\\scripts\\cupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A0E3CF-46F5-7C65-673B-636F76934BF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackPearl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackPearl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\\uFF01\uFF01\uFF01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\\uFF01\uFF01\uFF01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingMinion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackTopping\\PuddingMinion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PudingAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackTopping\\PudingAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingContro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackTopping\\PuddingContro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\GameOverUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameOverUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\ExpBarUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ExpBarUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\BloodParticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BloodParticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\ScoreManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScoreManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemyBullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyBullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemyMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerHealthParticles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerHealthParticles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\toppingButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\toppingButton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAttack.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAttack.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwvzcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:47:44.39Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GameOverUI.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\GameOverUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverUI.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\GameOverUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOverUI.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T17:49:46.128Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:14:20.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VendingMachineBoss.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\VendingMachineBoss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VendingMachineBoss.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\VendingMachineBoss.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\VendingMachineBoss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:27:50.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BossSpawner.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\BossSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BossSpawner.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\BossSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\BossSpawner.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:28:32.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossSpawnCircle.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\BossSpawnCircle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BossSpawnCircle.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\BossSpawnCircle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\BossSpawnCircle.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:38:00.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyMove.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\EnemyMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyMove.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\EnemyMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyMove.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:14:30.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:14:34.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemySpawner.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:14:29.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerSkinController1.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerControls\\PlayerSkinController1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControls\\PlayerSkinController1.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerControls\\PlayerSkinController1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControls\\PlayerSkinController1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T04:51:14.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ExpBarUI.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\ExpBarUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExpBarUI.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\ExpBarUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExpBarUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T19:26:30.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EXPCollect.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EXPCollect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EXPCollect.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EXPCollect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EXPCollect.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T23:52:51.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EXP.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EXP.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EXP.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EXP.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EXP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T23:52:09.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EXPCup.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EXPCup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EXPCup.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EXPCup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EXPCup.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T19:33:42.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BloodParticle.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\BloodParticle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BloodParticle.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\BloodParticle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BloodParticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T23:30:17.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAmwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T20:16:14.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleManager.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleManager.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T01:07:30.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PixelateEffect.shader",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Shaders\\PixelateEffect.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\PixelateEffect.shader",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Shaders\\PixelateEffect.shader",
+              "RelativeToolTip": "Assets\\Shaders\\PixelateEffect.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-02-10T19:41:44.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StartMenu.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\StartMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StartMenu.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\StartMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StartMenu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:41:18.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DrinkRecorder.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\DrinkRecorder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkRecorder.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\DrinkRecorder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DrinkRecorder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:31:31.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrangeAttack.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\OrangeAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\OrangeAttack.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\OrangeAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\OrangeAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T21:00:50.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PearlAttack.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PearlAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PearlAttack.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PearlAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PearlAttack.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:44:02.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrangeDamage.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\OrangeDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\OrangeDamage.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\OrangeDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\OrangeDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:31:07.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PuddingMeleeAttack.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingMeleeAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PuddingMeleeAttack.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingMeleeAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PuddingMeleeAttack.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:24:29.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PuddingProjectile.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PuddingProjectile.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PuddingProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:25:47.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PuddingRangedAttack.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingRangedAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PuddingRangedAttack.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingRangedAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PuddingRangedAttack.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:23:50.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PuddingContro.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingContro.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PuddingContro.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingContro.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PuddingContro.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAG8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T00:42:49.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PuddingCombat.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingCombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PuddingCombat.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingCombat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PuddingCombat.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:23:14.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CoconutProjectile.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\CoconutProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\CoconutProjectile.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\CoconutProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\CoconutProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T23:04:10.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T05:07:18.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CoconutAttack.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\CoconutAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\CoconutAttack.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\CoconutAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\CoconutAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T23:06:00.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AttackPearl.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\AttackPearl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\AttackPearl.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\AttackPearl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\AttackPearl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T20:09:28.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DrinkMaker.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\DrinkMaker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkMaker.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\DrinkMaker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DrinkMaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T20:15:38.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LemonBoomerang.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\LemonBoomerang.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\LemonBoomerang.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\LemonBoomerang.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\LemonBoomerang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:21:05.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PudingAttack.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PudingAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PudingAttack.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PudingAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PudingAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:21:47.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PuddingMinion.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingMinion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\PuddingMinion.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\PuddingMinion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\PuddingMinion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:21:56.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoconutHoming.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\CoconutHoming.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackTopping\\CoconutHoming.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackTopping\\CoconutHoming.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackTopping\\CoconutHoming.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:22:26.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AttackPearl.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackPearl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackPearl.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\AttackPearl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackPearl.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T23:14:18.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T23:22:22.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T22:53:54.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBullet.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBullet.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T22:23:55.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EnemyMove.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemyMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMove.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\EnemyMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMove.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:57:37.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "\uFF01\uFF01\uFF01.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\\uFF01\uFF01\uFF01.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\uFF01\uFF01\uFF01.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\\uFF01\uFF01\uFF01.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\uFF01\uFF01\uFF01.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T05:02:18.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PlayerHealthParticles.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerHealthParticles.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealthParticles.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\PlayerHealthParticles.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealthParticles.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T23:31:04.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FinishDrink.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\FinishDrink.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FinishDrink.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\FinishDrink.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FinishDrink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:33:43.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Remake.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Remake.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Remake.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\Remake.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Remake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T03:04:47.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T20:09:44.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StationMoving.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\StationMoving.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StationMoving.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\StationMoving.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StationMoving.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T22:22:31.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LiquidSpawner.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\LiquidSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LiquidSpawner.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\LiquidSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LiquidSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T06:34:03.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CupController.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\CupController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CupController.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\CupController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CupController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAG4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T06:32:59.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "toppingButton.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\toppingButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\toppingButton.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\toppingButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\toppingButton.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T01:45:20.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IngrediantSpawner.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\IngrediantSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IngrediantSpawner.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\IngrediantSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IngrediantSpawner.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T00:56:59.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IngrediantParticle.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\IngrediantParticle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IngrediantParticle.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\IngrediantParticle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IngrediantParticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T00:56:58.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LiquidType.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\LiquidType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LiquidType.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\LiquidType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LiquidType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T06:11:04.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LiquidParticle.cs",
+              "DocumentMoniker": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\LiquidParticle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LiquidParticle.cs",
+              "ToolTip": "D:\\\u72EC\u7ACB\u6E38\u620F\u5F00\u53D1independent games\\unity\\bubble tea maker\\Assets\\Scripts\\LiquidParticle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LiquidParticle.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T06:04:06.429Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
