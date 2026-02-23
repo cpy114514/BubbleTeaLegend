@@ -1,0 +1,1 @@
+Bubble Tea Legend is a survival game where the bubble tea you make becomes your fighter. Mix milk, tea, and toppings to create your own build, then enter battle and survive waves of enemies. Different ingredients change how you attack, so every cup plays differently. Craft your drink, step into the arena, and see how long your tea can survive.
