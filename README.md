@@ -32,26 +32,25 @@ The recipe you design directly affects:
 
 Craft first. Survive after.
 
----
+How to Play
 
-## 🛠 Built With
+Craft Your Drink
+Start by making your bubble tea.
+Add milk, red tea or green tea, and choose your toppings like pearls.
+Your recipe determines how you fight.
 
-- Unity (2D)
-- C#
-- Custom modular battle system
-- Data-driven drink configuration system
+Enter the Battle
+Once your drink is ready, step into the arena.
+Your character attacks automatically.
 
----
+Stay Within Range
+You will automatically target the nearest enemy within your attack range.
+Positioning matters — move carefully.
 
+Survive the Waves
+Enemies will continuously spawn and grow stronger over time.
+Avoid getting surrounded.
 
-## 📌 Inspiration
-
-Inspired by survival games like Vampire Survivors,  
-combined with a creative drink-mixing theme.
-
----
-
-
-## 📄 License
-
-This project is for learning and development purposes.
+Watch Your Health
+Your health is shown as liquid inside your cup.
+When the cup runs empty, the game is over.
