@@ -1,4 +1,4 @@
-Optimization
+————Optimization————
 Caching strategies
 combat code reuses cached references instead of repeatedly scanning the whole scene
 Reduce memory usage
