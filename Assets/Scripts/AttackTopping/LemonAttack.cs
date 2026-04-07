@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class LemonAttack : MonoBehaviour
 {
@@ -26,7 +26,6 @@ public class LemonAttack : MonoBehaviour
         return Mathf.Max(0.5f, baseFireInterval * factor);
     }
 
-
     void Fire()
     {
         Enemy target = FindNearestEnemy();
@@ -34,8 +33,6 @@ public class LemonAttack : MonoBehaviour
             return;
 
         int count = GetLemonCount();
-
-        // ===== 情况 1：只有 1 个（特殊规则）=====
         if (count == 1)
         {
             Vector2 dir = GetAxisDirectionToTarget(target.transform.position);
@@ -43,7 +40,6 @@ public class LemonAttack : MonoBehaviour
             return;
         }
 
-        // ===== 情况 2：>= 2 个，360° 均分 =====
         float angleStep = 360f / count;
 
         for (int i = 0; i < count; i++)
@@ -59,58 +55,35 @@ public class LemonAttack : MonoBehaviour
         return 1 + PlayerBattleData.lemonCountLv;
     }
 
-
     void FireOne(Vector2 dir)
     {
-        GameObject l = Instantiate(
+        GameObject lemon = Instantiate(
             lemonPrefab,
             transform.position,
             Quaternion.identity
         );
 
-        LemonBoomerang b = l.GetComponent<LemonBoomerang>();
-        if (b != null)
+        LemonBoomerang boomerang = lemon.GetComponent<LemonBoomerang>();
+        if (boomerang != null)
         {
-            b.damage += PlayerBattleData.lemonDamageLv * 2;
-            b.Init(dir);
+            boomerang.damage += PlayerBattleData.lemonDamageLv * 2;
+            boomerang.Init(dir);
         }
     }
 
-    // =====================
-    // 只在 count == 1 时使用
-    // 上下左右取最近方向
-    // =====================
     Vector2 GetAxisDirectionToTarget(Vector3 targetPos)
     {
         Vector2 toTarget = (targetPos - transform.position).normalized;
 
         if (Mathf.Abs(toTarget.x) > Mathf.Abs(toTarget.y))
-        {
             return toTarget.x > 0 ? Vector2.right : Vector2.left;
-        }
-        else
-        {
-            return toTarget.y > 0 ? Vector2.up : Vector2.down;
-        }
+
+        return toTarget.y > 0 ? Vector2.up : Vector2.down;
     }
 
     Enemy FindNearestEnemy()
     {
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
-        float minDist = float.MaxValue;
-        Enemy nearest = null;
-
-        foreach (var e in enemies)
-        {
-            float d = Vector2.Distance(transform.position, e.transform.position);
-            if (d <= attackRange && d < minDist)
-            {
-                minDist = d;
-                nearest = e;
-            }
-        }
-
-        return nearest;
+        return EnemyRegistry.GetNearest(transform.position, attackRange);
     }
 
     Vector2 Rotate(Vector2 v, float degrees)

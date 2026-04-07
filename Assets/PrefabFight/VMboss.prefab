@@ -148,12 +148,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aacdd731419ff64448db28b6c91d5e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 250
+  maxHP: 200
   expOrbPrefab: {fileID: 1880919900805426248, guid: 6d290ab07bfca1d4988a19c72d9fa5b9, type: 3}
   expValue: 128
   scoreValue: 100
   hitDarkenTime: 0.12
   hitColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  damageTextPrefab: {fileID: 1480548017957271084, guid: 31738b83ca8764e45b09f3910e683928, type: 3}
 --- !u!50 &2485175184396752951
 Rigidbody2D:
   serializedVersion: 4

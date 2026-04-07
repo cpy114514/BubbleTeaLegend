@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseDamage: 2
-  hitCooldown: 0.3
+  hitCooldown: 0.2
 --- !u!50 &4042019755536691474
 Rigidbody2D:
   serializedVersion: 4

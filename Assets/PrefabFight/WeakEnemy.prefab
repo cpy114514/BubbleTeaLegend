@@ -137,6 +137,7 @@ MonoBehaviour:
   scoreValue: 5
   hitDarkenTime: 0.12
   hitColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  damageTextPrefab: {fileID: 1480548017957271084, guid: 31738b83ca8764e45b09f3910e683928, type: 3}
 --- !u!50 &2485175184396752951
 Rigidbody2D:
   serializedVersion: 4

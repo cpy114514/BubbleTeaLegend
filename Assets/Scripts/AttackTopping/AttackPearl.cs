@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class PearlProjectile : MonoBehaviour
 {
@@ -36,13 +36,12 @@ public class PearlProjectile : MonoBehaviour
 
         if (bounceCount > 0)
         {
-            Transform next = FindNextEnemy(hit.transform);
+            Enemy next = FindNextEnemy(hit);
             if (next != null)
             {
                 bounceCount--;
-
-                // ⭐ 只改 direction，不碰 Rigidbody
-                direction = (next.position - transform.position).normalized;
+                direction =
+                    ((Vector2)next.transform.position - (Vector2)transform.position).normalized;
                 return;
             }
         }
@@ -50,28 +49,12 @@ public class PearlProjectile : MonoBehaviour
         Destroy(gameObject);
     }
 
-    Transform FindNextEnemy(Transform current)
+    Enemy FindNextEnemy(Enemy current)
     {
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
-        float minDist = float.MaxValue;
-        Enemy nearest = null;
-
-        foreach (var e in enemies)
-        {
-            if (e.transform == current) continue;
-
-            float d = Vector2.Distance(
-                transform.position,
-                e.transform.position
-            );
-
-            if (d < bounceSearchRadius && d < minDist)
-            {
-                minDist = d;
-                nearest = e;
-            }
-        }
-
-        return nearest ? nearest.transform : null;
+        return EnemyRegistry.GetNearest(
+            transform.position,
+            bounceSearchRadius,
+            current
+        );
     }
 }

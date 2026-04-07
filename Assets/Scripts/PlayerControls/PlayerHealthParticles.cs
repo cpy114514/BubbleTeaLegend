@@ -1,9 +1,11 @@
-﻿using UnityEngine;
-using TMPro;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
 
 public class PlayerHealthParticles : MonoBehaviour
 {
+    public static PlayerHealthParticles Instance { get; private set; }
+
     [Header("Health")]
     public int maxHP = 100;
     public int currentHP;
@@ -19,8 +21,13 @@ public class PlayerHealthParticles : MonoBehaviour
     [Header("UI")]
     public TextMeshProUGUI hpText;
 
-    List<GameObject> particles = new List<GameObject>();
+    readonly List<GameObject> particlePool = new();
     bool isDead = false;
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -28,12 +35,10 @@ public class PlayerHealthParticles : MonoBehaviour
         RefreshAll();
     }
 
-    // =====================
-    // Public API
-    // =====================
     public void TakeDamage(int damage)
     {
-        if (isDead) return;
+        if (isDead)
+            return;
 
         currentHP = Mathf.Max(0, currentHP - damage);
         RefreshAll();
@@ -48,31 +53,25 @@ public class PlayerHealthParticles : MonoBehaviour
         RefreshAll();
     }
 
-    // =====================
-    // Death
-    // =====================
     void Die()
     {
-        if (isDead) return;
+        if (isDead)
+            return;
+
         isDead = true;
+        Debug.Log("Player Died");
 
-        Debug.Log("☠ Player Died");
-
-        // 1️⃣ 禁止移动
         PlayerMovement move = GetComponent<PlayerMovement>();
         if (move != null)
             move.enabled = false;
 
-        // 2️⃣ 禁止所有攻击模块（新架构安全写法）
         DisableAllAttackModules();
-
-        // 3️⃣ 通知战斗系统
         BattleManager.Instance?.OnPlayerDead();
     }
 
     void DisableAllAttackModules()
     {
-        foreach (var comp in GetComponents<MonoBehaviour>())
+        foreach (MonoBehaviour comp in GetComponents<MonoBehaviour>())
         {
             if (comp is PearlAttack ||
                 comp is GrapeAttack ||
@@ -83,9 +82,6 @@ public class PlayerHealthParticles : MonoBehaviour
         }
     }
 
-    // =====================
-    // Visual Refresh
-    // =====================
     void RefreshAll()
     {
         RefreshParticles();
@@ -100,21 +96,21 @@ public class PlayerHealthParticles : MonoBehaviour
 
     void RefreshParticles()
     {
-        // 清空旧粒子
-        foreach (var p in particles)
-            Destroy(p);
+        if (bloodParticlePrefab == null || bloodContainer == null)
+            return;
 
-        particles.Clear();
+        EnsureParticlePool(currentHP);
 
-        // 生成新粒子
-        for (int i = 0; i < currentHP; i++)
+        for (int i = 0; i < particlePool.Count; i++)
         {
-            if (bloodParticlePrefab == null || bloodContainer == null)
-                return;
+            bool shouldBeVisible = i < currentHP;
+            GameObject particle = particlePool[i];
 
-            GameObject p = Instantiate(bloodParticlePrefab, bloodContainer);
-            p.transform.localPosition = CalculateLocalPos(i);
-            particles.Add(p);
+            if (particle.activeSelf != shouldBeVisible)
+                particle.SetActive(shouldBeVisible);
+
+            if (shouldBeVisible)
+                particle.transform.localPosition = CalculateLocalPos(i);
         }
     }
 
@@ -126,7 +122,22 @@ public class PlayerHealthParticles : MonoBehaviour
         return new Vector3(
             (x - particlesPerRow / 2f) * spacing,
             y * spacing,
-            0
+            0f
         );
+    }
+
+    void EnsureParticlePool(int targetCount)
+    {
+        while (particlePool.Count < targetCount)
+        {
+            GameObject particle = Instantiate(bloodParticlePrefab, bloodContainer);
+            particlePool.Add(particle);
+        }
+    }
+
+    void OnDestroy()
+    {
+        if (Instance == this)
+            Instance = null;
     }
 }

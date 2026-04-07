@@ -14,9 +14,7 @@ public class EnemyBullet : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerHealthParticles hp =
-                FindObjectOfType<PlayerHealthParticles>();
-
+            PlayerHealthParticles hp = PlayerHealthParticles.Instance;
             if (hp != null)
                 hp.TakeDamage(damage);
 
@@ -24,8 +22,6 @@ public class EnemyBullet : MonoBehaviour
         }
 
         if (other.CompareTag("Wall"))
-        {
             Destroy(gameObject);
-        }
     }
 }

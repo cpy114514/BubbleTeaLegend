@@ -3,7 +3,7 @@ using UnityEngine;
 public class PearlAttack : MonoBehaviour
 {
     public GameObject pearlPrefab;
-    public float baseInterval = 1f;
+    public float baseInterval = 0.8f;
     public float attackRange = 18f;
     public float bulletSpeed = 8f;
     public int baseDamage = 4;
@@ -39,42 +39,27 @@ public class PearlAttack : MonoBehaviour
         }
 
         Enemy target = FindNearestEnemy();
-        if (target == null) return;
+        if (target == null)
+            return;
 
         Vector2 dir =
-            (target.transform.position - transform.position).normalized;
+            ((Vector2)target.transform.position - (Vector2)transform.position).normalized;
 
-        GameObject b = Instantiate(
+        GameObject bullet = Instantiate(
             pearlPrefab,
             transform.position,
             Quaternion.identity
         );
 
-        var proj = b.GetComponent<PearlProjectile>();
-        proj.speed = bulletSpeed;
-        proj.damage = baseDamage + PlayerBattleData.pearlDamageLv * 2;
-        proj.bounceCount = PlayerBattleData.pearlBounceLv;
-        proj.Init(dir);
+        PearlProjectile projectile = bullet.GetComponent<PearlProjectile>();
+        projectile.speed = bulletSpeed;
+        projectile.damage = baseDamage + PlayerBattleData.pearlDamageLv * 2;
+        projectile.bounceCount = PlayerBattleData.pearlBounceLv;
+        projectile.Init(dir);
     }
-
 
     Enemy FindNearestEnemy()
     {
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
-        float min = float.MaxValue;
-        Enemy best = null;
-
-        foreach (var e in enemies)
-        {
-            float d = Vector2.Distance(transform.position, e.transform.position);
-            if (d > attackRange) continue;
-
-            if (d < min)
-            {
-                min = d;
-                best = e;
-            }
-        }
-        return best;
+        return EnemyRegistry.GetNearest(transform.position, attackRange);
     }
 }

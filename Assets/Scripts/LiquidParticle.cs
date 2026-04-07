@@ -8,7 +8,7 @@ public class LiquidParticle : MonoBehaviour
     public float spreadRadius = 0.001f;
 
     private SpriteRenderer sr;
-    int spreadLeft = 4;   // ⭐ 每个粒子最多扩散 2 次
+    int spreadLeft = 5;   // ⭐ 每个粒子最多扩散 2 次
 
 
     void Awake()
@@ -108,27 +108,33 @@ public class LiquidParticle : MonoBehaviour
         switch (type)
         {
             case LiquidType.Milk:
-                sr.color = new Color(1f, 1f, 0.95f);
+                // 牛奶：柔白偏暖
+                sr.color = new Color(1f, 0.98f, 0.92f);
                 break;
 
             case LiquidType.RedTea:
-                sr.color = new Color(0.5f, 0.3f, 0.2f);
+                // 红茶：更有深度一点
+                sr.color = new Color(0.55f, 0.28f, 0.18f);
                 break;
 
             case LiquidType.GreenTea:
-                sr.color = new Color(0.4f, 0.6f, 0.4f);
+                // 真正的 #699100
+                sr.color = new Color(0.3f, 0.569f, 0f);
                 break;
 
             case LiquidType.MilkRedTea:
-                sr.color = new Color(0.75f, 0.55f, 0.4f);
+                // 奶红茶 = 红茶 + 牛奶
+                sr.color = new Color(0.78f, 0.6f, 0.42f);
                 break;
 
             case LiquidType.MilkGreenTea:
-                sr.color = new Color(0.7f, 0.85f, 0.6f);
+                // 奶绿 = 绿茶 + 奶，偏抹茶奶
+                sr.color = new Color(0.72f, 0.82f, 0.45f);
                 break;
 
             case LiquidType.MixedTea:
-                sr.color = new Color(0.45f, 0.45f, 0.35f);
+                // 混合茶：更自然的灰褐
+                sr.color = new Color(0.45f, 0.42f, 0.32f);
                 break;
         }
     }

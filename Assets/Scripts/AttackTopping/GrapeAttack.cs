@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class GrapeAttack : MonoBehaviour
 {
     [Header("Projectile")]
-    public GameObject projectilePrefab;   // ⭐ 由 BattleManager 注入
+    public GameObject projectilePrefab;
 
     [Header("Base Stats")]
     public float baseFireInterval = 1f;
@@ -13,7 +13,7 @@ public class GrapeAttack : MonoBehaviour
 
     [Header("Scatter")]
     public int baseScatterCount = 3;
-    public float scatterAngle = 45f;
+    public float scatterAngle = 120f;
 
     float fireTimer;
 
@@ -33,9 +33,6 @@ public class GrapeAttack : MonoBehaviour
         fireTimer = 0f;
     }
 
-    // =====================
-    // Fire
-    // =====================
     void Fire(Enemy target)
     {
         if (projectilePrefab == null)
@@ -45,10 +42,10 @@ public class GrapeAttack : MonoBehaviour
         }
 
         Vector2 baseDir =
-            (target.transform.position - transform.position).normalized;
+            ((Vector2)target.transform.position - (Vector2)transform.position).normalized;
 
         int count = GetScatterCount();
-        float step = count <= 1 ? 0 : scatterAngle / (count - 1);
+        float step = count <= 1 ? 0f : scatterAngle / (count - 1);
         float start = -scatterAngle / 2f;
 
         for (int i = 0; i < count; i++)
@@ -56,23 +53,20 @@ public class GrapeAttack : MonoBehaviour
             float angle = start + step * i;
             Vector2 dir = Rotate(baseDir, angle);
 
-            GameObject b = Instantiate(
+            GameObject bullet = Instantiate(
                 projectilePrefab,
                 transform.position,
                 Quaternion.identity
             );
 
-            PearlProjectile proj = b.GetComponent<PearlProjectile>();
-            proj.speed = bulletSpeed;
-            proj.damage = GetDamage();
-            proj.bounceCount = 0; // 葡萄不弹射
-            proj.Init(dir);
+            PearlProjectile projectile = bullet.GetComponent<PearlProjectile>();
+            projectile.speed = bulletSpeed;
+            projectile.damage = GetDamage();
+            projectile.bounceCount = 0;
+            projectile.Init(dir);
         }
     }
 
-    // =====================
-    // Stats from upgrades
-    // =====================
     float GetFireInterval()
     {
         int lv = PlayerBattleData.grapeFireRateLv;
@@ -90,33 +84,9 @@ public class GrapeAttack : MonoBehaviour
         return baseScatterCount + PlayerBattleData.grapeScatterCountLv;
     }
 
-    // =====================
-    // Utils
-    // =====================
     Enemy FindNearestEnemy()
     {
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
-        float minDist = float.MaxValue;
-        Enemy nearest = null;
-
-        foreach (var e in enemies)
-        {
-            float d = Vector2.Distance(
-                transform.position,
-                e.transform.position
-            );
-
-            if (d > attackRange)
-                continue;
-
-            if (d < minDist)
-            {
-                minDist = d;
-                nearest = e;
-            }
-        }
-
-        return nearest;
+        return EnemyRegistry.GetNearest(transform.position, attackRange);
     }
 
     Vector2 Rotate(Vector2 v, float deg)

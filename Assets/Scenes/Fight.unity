@@ -1776,6 +1776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722424107}
   - component: {fileID: 722424108}
+  - component: {fileID: 722424110}
   - component: {fileID: 722424109}
   - component: {fileID: 722424106}
   m_Layer: 0
@@ -1848,9 +1849,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d583b10112b188645a41c3e711c94dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossPrefab: {fileID: 4801850564300078824, guid: ac9aff2b7f31d4a41a1ce572c5e0f5da, type: 3}
+  spawnPoint: {fileID: 753983052}
+  scoreToSpawn: 10000
+--- !u!114 &722424110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722424105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d583b10112b188645a41c3e711c94dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   bossPrefab: {fileID: 4801850564300078824, guid: 347596fb051b59848917a8ecc69f90eb, type: 3}
   spawnPoint: {fileID: 753983052}
-  scoreToSpawn: 1000
+  scoreToSpawn: 2000
 --- !u!1 &753983051
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,134 +2258,6 @@ MonoBehaviour:
   levelText: {fileID: 823260170}
   expText: {fileID: 639127256}
   showFraction: 1
---- !u!1 &830836469
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 830836470}
-  - component: {fileID: 830836471}
-  m_Layer: 0
-  m_Name: Audio Source
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &830836470
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830836469}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1123009408}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &830836471
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830836469}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 75fb6f4552cc00a4eb265f12f89071a5, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &886227286
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,8 +2902,7 @@ Transform:
   m_LocalPosition: {x: -12.59304, y: 4.1463966, z: 1.2756454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 830836470}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1181984396
@@ -4819,7 +4706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expController: {fileID: 676101697}
   expDropPrefab: {fileID: 4683874495349229651, guid: d533ed9e6bee0384da15f3a2f4b7ff3a, type: 3}
-  maxBallCount: 256
+  maxBallCount: 512
   spawnPoint: {fileID: 2126434851}
 --- !u!1 &1731210630
 GameObject:

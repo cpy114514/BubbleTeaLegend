@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class CoconutAttack : MonoBehaviour
 {
@@ -33,53 +33,26 @@ public class CoconutAttack : MonoBehaviour
             return;
 
         Vector2 dir =
-            (target.transform.position - transform.position).normalized;
+            ((Vector2)target.transform.position - (Vector2)transform.position).normalized;
 
-        GameObject c = Instantiate(
+        GameObject coconut = Instantiate(
             coconutPrefab,
             transform.position,
             Quaternion.identity
         );
 
-        CoconutProjectile proj = c.GetComponent<CoconutProjectile>();
-        if (proj != null)
+        CoconutProjectile projectile = coconut.GetComponent<CoconutProjectile>();
+        if (projectile != null)
         {
-            // ⭐ 初始方向
-            proj.SetInitialDirection(dir);
-
-            // ⭐ 升级数据
-            proj.damage += PlayerBattleData.coconutDamageLv * 2;
-            proj.pierceCount += PlayerBattleData.coconutPierceLv;
+            projectile.SetInitialDirection(dir);
+            projectile.damage += PlayerBattleData.coconutDamageLv * 2;
+            projectile.pierceCount += PlayerBattleData.coconutPierceLv;
         }
     }
 
-    // =====================
-    // Enemy search
-    // =====================
     Enemy FindNearestEnemyInRange()
     {
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
-        float minDist = float.MaxValue;
-        Enemy nearest = null;
-
-        foreach (var e in enemies)
-        {
-            float d = Vector2.Distance(
-                transform.position,
-                e.transform.position
-            );
-
-            if (d > attackRange)
-                continue;
-
-            if (d < minDist)
-            {
-                minDist = d;
-                nearest = e;
-            }
-        }
-
-        return nearest;
+        return EnemyRegistry.GetNearest(transform.position, attackRange);
     }
 
     void OnDrawGizmosSelected()
