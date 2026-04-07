@@ -1,5 +1,12 @@
-<<<<<<< HEAD
-Bubble Tea Legend
+Optimization
+Caching strategies
+combat code reuses cached references instead of repeatedly scanning the whole scene
+Reduce memory usage
+Changed the HP particle UI to reuse pooled objects
+changed enemy separation from “OverlapCircleAll” to “OverlapCircleNonAlloc” to reduce runtime allocations
+results: if this game run by HTML， it used to get laggy sometimes but now everything is smoother and won't get laggy even there are many enemy(unless if the computer is too bad :)
+
+————Bubble Tea Legend————
 Bubble Tea Legend is a 2D survival action game where the drink you craft becomes your fighter.
 
 Mix milk, red or green tea, and toppings like pearls to create your own build.  
@@ -25,11 +32,10 @@ Survive the Waves
 Enemies will continuously spawn and grow stronger over time.
 Avoid getting surrounded.
 
-Watch Your Health
+Watch out Your Health
 Your health is shown as liquid inside your cup.
 When the cup runs empty, the game is over.
-=======
-# Bubble Tea Maker
+
 
 `Bubble Tea Maker` is a Unity game with two phases:
 
